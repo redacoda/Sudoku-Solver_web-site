@@ -1,0 +1,281 @@
+body{
+    background-color: #FFE99C;
+}
+
+
+p{
+    font-family: Jost, Arial;
+    color: black;
+    font-weight: 700;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+
+.norm{
+    height: 80px;
+    width: 525px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20;
+
+}
+
+.dnlwd{
+    display: flex;
+    height: 300px;
+    width: 525px;
+    background-color: #FF9C29;
+    border: 3px solid black;
+    border-radius: 50px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-right: 7px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.spacing{
+    height: 100px;
+    width: 1100px;
+}
+
+
+.bento{
+    height: 690px;
+    width: 1145px;
+    display: flex;
+    margin-top: 0px;
+    margin-left: 230px;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    border-radius: 32px;
+    background-color: #4CAF50  ;
+}
+
+.Version-History {
+    height: 630px;
+    width: 300px;
+    display: inline-block;
+    background-color: #FF9C29;
+    border: 3px solid black;
+    border-radius: 50px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    transition: height 0.15s, width 0.15s;
+}
+
+.Version-History:Hover{
+    height: 640px;
+    width: 310px;
+}
+
+.mcolumnr{
+    height: 680px;
+    width: 770px;
+    display: inline-block;
+    margin-top: 30px;
+}
+
+.I-am{
+    height: 285px;
+    width: 740px;
+    background-color: #FF9C29;
+    border: 3px solid black;
+    border-radius: 50px;
+    display: block;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    transition: height 0.15s, width 0.15s;
+    margin-bottom: 12.5px;
+}
+
+.I-am:hover{
+    height: 295px;
+    width: 750px;
+}
+
+.nlinedown{
+    height: 300px;
+    width: 800px;
+    display: flex;
+    margin-left: 30px;
+}
+
+.Other{
+    height: 320px;
+    width: 365px;
+    background-color: #FF9C29;
+    border: 3px solid black;
+    border-radius: 60px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    transition: height 0.15s, width 0.15s, padding-left 0.15s, padding-right 0.15s;
+    margin-right: 10px;
+    margin-top: 12.5px;
+    text-align: center;
+}
+
+.Other:hover{
+    height: 330px;
+    width: 375px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.Privacy{
+    padding-left: 30px;
+    padding-right: 30px;
+    height: 320px;
+    width: 365px;
+    background-color: #FF9C29;
+    border: 3px solid black;
+    border-radius: 60px;
+    display: flex;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    transition: height 0.15s, width 0.15s;
+    margin-left: 10px;
+    margin-top: 12.5px;
+}
+
+.Privacy:hover{
+    height: 330px;
+    width: 375px;
+}
+
+.title{
+    height: auto;
+    font-size: 25px;
+    margin-left: 40px;
+    margin-top: 30px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.wam-txt{
+    font-size: 23px;
+    width: 720px;
+    margin-left: 10px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.otit{
+    width: auto;
+    height: 50px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.other-title{
+    font-size: 25px;
+    margin-bottom: 0px;
+    height: 35px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.other-txt{
+    height: 70px;
+    padding-bottom: 50px;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 23px;
+}
+
+.obut{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.more-button{
+    border: 3px solid black;
+    border-radius: 50px;
+    font-family: Jost, Arial;
+    font-weight: 700;
+    font-size: 22px;
+    height: 50px;
+    width: 200px;
+    
+}
+
+.versions{
+    margin: 0;
+    height: auto;
+    text-align: bottom;
+    font-size: 19px;
+    margin-left: 25px;
+    margin-bottom: 30px;
+    line-height: 25px;
+
+}
+
+.vtitle{
+    height: 75px;
+    width: 300px;
+}
+
+.vtext{
+    height: 500px;
+}
+
+.dnlwd-buttons{
+    border: 3px solid black;
+    border-radius: 50px;
+    font-family: Jost, Arial;
+    font-weight: 700;
+    font-size: 30px;
+    height: 78px;
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    top: 130px;
+    transition: width 0.15s;
+    box-sizing: border-box;
+
+}
+
+.dnlwd-buttons:hover{
+    width: 330px;
+
+}
+
+.sc-button{
+    border: 3px solid black;
+    border-radius: 50px;
+    font-family: Jost, Arial;
+    font-weight: 700;
+    font-size: 22px;
+    height: 50px;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    top: 220px;
+    transition: top 0.15s;
+}
+
+.priv-txt{
+    height: 130px;
+    padding-bottom: 50px;
+    vertical-align: top;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 23px;
+    text-align: center;
+}
