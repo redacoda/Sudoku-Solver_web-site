@@ -1,7 +1,6 @@
 body{
-    background-color: #FFE99C;
+    background-color: #4CAF50;
 }
-
 
 p{
     font-family: Jost, Arial;
@@ -13,39 +12,44 @@ p{
     user-select: none;
 }
 
-
-.norm{
-    height: 80px;
-    width: 525px;
-    display: flex;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20;
-
+img{
+    
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
 }
 
-.dnlwd{
-    display: flex;
-    height: 300px;
-    width: 525px;
-    background-color: #FF9C29;
-    border: 3px solid black;
-    border-radius: 50px;
-    display: flex;
-    box-sizing: border-box;
-    flex-wrap: wrap;
-    margin-right: 7px;
-    margin-left: auto;
-    margin-right: auto;
+.hr {
+    border: none;
+    height: 1px;
+    background-color: #000; /* Couleur de la ligne */
+    margin: 20px 0; /* Espacement au-dessus et en-dessous */
+  }
+
+.hra{
+    margin: 0px 0px;
+    background-color: transparent;
+    color: #3f9242;
+}
+
+.pres{
+height: 690px;
+width: 1400px;
+margin-top: 20px;
+margin-left: 230px;
+margin-left: auto;
+margin-right: auto;
+display: flex;
+justify-content: flex-end;
+border-radius: 32px;
+background-color: #3c8b3f;
 }
 
 .spacing{
     height: 100px;
     width: 1100px;
 }
-
 
 .bento{
     height: 690px;
@@ -57,15 +61,14 @@ p{
     margin-right: auto;
     justify-content: center;
     border-radius: 32px;
-    background-color: #4CAF50  ;
+    background-color: #3c8b3f;
 }
 
 .Version-History {
     height: 630px;
     width: 300px;
     display: inline-block;
-    background-color: #FF9C29;
-    border: 3px solid black;
+    background-color: #BBDC76;
     border-radius: 50px;
     display: flex;
     box-sizing: border-box;
@@ -89,15 +92,15 @@ p{
 .I-am{
     height: 285px;
     width: 740px;
-    background-color: #FF9C29;
-    border: 3px solid black;
+    background-color: #BBDC76;
     border-radius: 50px;
-    display: block;
+    display: flex;
     box-sizing: border-box;
     flex-wrap: wrap;
     margin-left: 30px;
     transition: height 0.15s, width 0.15s;
     margin-bottom: 12.5px;
+    text-align: center;
 }
 
 .I-am:hover{
@@ -115,8 +118,7 @@ p{
 .Other{
     height: 320px;
     width: 365px;
-    background-color: #FF9C29;
-    border: 3px solid black;
+    background-color: #BBDC76;
     border-radius: 60px;
     display: flex;
     box-sizing: border-box;
@@ -139,8 +141,7 @@ p{
     padding-right: 30px;
     height: 320px;
     width: 365px;
-    background-color: #FF9C29;
-    border: 3px solid black;
+    background-color: #BBDC76;
     border-radius: 60px;
     display: flex;
     box-sizing: border-box;
@@ -163,8 +164,9 @@ p{
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-
 }
+
+
 .wam-txt{
     font-size: 23px;
     width: 720px;
@@ -181,16 +183,10 @@ p{
     margin-right: auto;
 }
 
-.other-title{
-    font-size: 25px;
-    margin-bottom: 0px;
-    height: 35px;
-    margin-top: 20px;
-    text-align: center;
-}
 
 .other-txt{
     height: 70px;
+    width: 350px;
     padding-bottom: 50px;
     vertical-align: top;
     margin-top: 0px;
@@ -215,14 +211,12 @@ p{
 }
 
 .versions{
-    margin: 0;
+    width: 250px;
     height: auto;
-    text-align: bottom;
-    font-size: 19px;
+    font-size: 18px;
     margin-left: 25px;
     margin-bottom: 30px;
     line-height: 25px;
-
 }
 
 .vtitle{
@@ -239,35 +233,13 @@ p{
     border-radius: 50px;
     font-family: Jost, Arial;
     font-weight: 700;
-    font-size: 30px;
-    height: 78px;
-    width: 300px;
-    margin-left: auto;
-    margin-right: auto;
-    top: 130px;
+    font-size: 26px;
+    height: 62px;
+    width: 200px;
+    margin-top: 190px;
+    margin-left: 6px;
     transition: width 0.15s;
     box-sizing: border-box;
-    cursor: pointer;
-}
-
-.dnlwd-buttons:hover{
-    width: 330px;
-
-}
-
-.sc-button{
-    border: 3px solid black;
-    border-radius: 50px;
-    font-family: Jost, Arial;
-    font-weight: 700;
-    font-size: 22px;
-    height: 50px;
-    width: 200px;
-    margin-left: auto;
-    margin-right: auto;
-    position: relative;
-    top: 220px;
-    transition: top 0.15s;
     cursor: pointer;
 }
 
@@ -279,4 +251,35 @@ p{
     margin-bottom: 0px;
     font-size: 23px;
     text-align: center;
+}
+
+.app-name{
+    font-size: 30px;
+    margin-top: 200px;
+}
+
+.app-infos{
+    width: 450px;
+    height: 700px;
+    justify-content: end;
+}
+
+.app-txt{
+    margin-right: 40px;
+}
+
+.bar{
+    display: inline-block;
+    background-color: #000;
+    height: 575px;
+    width: 1px;
+    margin-top: 60px;
+    margin-right: 25px;
+}
+
+.img{
+    height: 552px;
+    border-radius: 32px;
+    margin-top: 70px;
+    margin-right: 20px;
 }
